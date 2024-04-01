@@ -1,0 +1,25 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>bar-baz</short-name>
+   <url>/WEB-INF/mylib</url>
+    <tag>
+        <name>printTable</name>
+        <tag-class>com.MyTag.MyCustomTag</tag-class>
+        <attribute>
+            <name>num</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <name>attributeTag</name>
+        <tag-class>com.MyTag.MyCustomTag2Attribute</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>  //specify whether an attribute accepts runtime expressions.
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+</taglib>
