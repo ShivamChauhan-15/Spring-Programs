@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="org.example.Student">
+<!--        using setter method-->
+        <property name="name" value="Shivam Chauhan"/>
+        <property name="roll" value="10"/>
+
+<!--        using constructor-->
+<!--        <constructor-arg value="20" />-->
+<!--        <constructor-arg value="Shivam"/>-->
+        <!-- collaborators and configuration for this bean go here -->
+
+    </bean>
+
+
+</beans>

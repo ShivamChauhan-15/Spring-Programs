@@ -1,0 +1,40 @@
+08-Mar-2024 10:33:02.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.99
+08-Mar-2024 10:33:02.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 22:52:13 UTC
+08-Mar-2024 10:33:02.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.99.0
+08-Mar-2024 10:33:02.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Mar-2024 10:33:02.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-97-generic
+08-Mar-2024 10:33:02.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Mar-2024 10:33:02.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/admin1/.jdks/corretto-11.0.22
+08-Mar-2024 10:33:02.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-LTS
+08-Mar-2024 10:33:02.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Mar-2024 10:33:02.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/admin1/Documents/Spring Programs/WorkingBloodBankProject
+08-Mar-2024 10:33:02.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/admin1/Downloads/apache-tomcat-8.5.99
+08-Mar-2024 10:33:02.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Mar-2024 10:33:02.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Mar-2024 10:33:02.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Mar-2024 10:33:02.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Mar-2024 10:33:02.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Mar-2024 10:33:02.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/admin1/Downloads/apache-tomcat-8.5.99
+08-Mar-2024 10:33:02.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/admin1/Documents/Spring Programs/WorkingBloodBankProject
+08-Mar-2024 10:33:02.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/admin1/Documents/Spring Programs/WorkingBloodBankProject/temp
+08-Mar-2024 10:33:02.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/admin1/Documents/Spring Programs/WorkingBloodBankProject/conf/logging.properties
+08-Mar-2024 10:33:02.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Mar-2024 10:33:03.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/483/lib/idea_rt.jar=43205:/snap/intellij-idea-community/483/bin
+08-Mar-2024 10:33:03.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+08-Mar-2024 10:33:03.001 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Mar-2024 10:33:03.100 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8087"]
+08-Mar-2024 10:33:03.153 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1422 ms
+08-Mar-2024 10:33:03.316 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2024 10:33:03.316 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.99]
+08-Mar-2024 10:33:03.361 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/admin1/Documents/Spring Programs/WorkingBloodBankProject/conf/Catalina/localhost/BloodBankProject.xml]
+08-Mar-2024 10:33:05.478 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2024 10:33:05.599 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'DS'
+08-Mar-2024 10:33:06.531 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 932 ms
+08-Mar-2024 10:33:06.544 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/admin1/Documents/Spring Programs/WorkingBloodBankProject/conf/Catalina/localhost/BloodBankProject.xml] has finished in [3,182] ms
+08-Mar-2024 10:33:06.547 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8087"]
+08-Mar-2024 10:33:06.558 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3404 ms
+08-Mar-2024 16:18:51.286 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8087"]
+08-Mar-2024 16:18:51.288 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Mar-2024 16:18:51.315 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodBankProject] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Mar-2024 16:18:51.326 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8087"]
+08-Mar-2024 16:18:51.333 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8087"]
