@@ -9,7 +9,8 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 //@ComponentScan(basePackages = "org.example,aop")
 @Configuration
-@EnableAspectJAutoProxy
+@EnableAspectJAutoProxy(proxyTargetClass = true)   //Spring AOP proxies are created around interfaces by  default so
+                                                    // to enable class based proxy we have to do (proxyTargetClass = true)
 public class AppConfig {
     @Bean
     public AspectAop createAspect(){
